@@ -1,0 +1,62 @@
+.font-weight-light{
+  font-weight: lighter;
+}
+
+.images-small{
+  min-height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+}
+
+.images-small span {
+  height: 6rem;
+  min-width: 6rem;
+}
+.images-small span img{
+  height: 5rem;
+  width: auto;
+  cursor: pointer;
+
+}
+.btn-absolut{
+  position: relative;
+  z-index: 5;
+  float: right;
+  right: 1rem;
+  top: 3.5rem;
+}
+.imgSocial{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 50vh;
+  }
+  .imgSocial span {
+    height: 50vh;
+    width: 40%;
+  }
+  
+  .imgSocial span img{
+    width: 100%;
+    height: auto;
+    margin: 2rem;
+  }
+  
+  .imgSocial span i{
+    font-size: 2rem;
+  transform: rotate(10deg);
+    padding: 1rem 0 ;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    
+  position: relative;
+  z-index: 5;
+  float: right;
+  right: 2rem;
+  top: 6rem;
+  }
