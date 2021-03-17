@@ -16,7 +16,7 @@
     nom : {{ ProductApi.name}}
     prix (sans reduction): {{ProductApi.price[0]}}
     reduction: {{ProductApi.price[1] ? ProductApi.price[1]  : 0 }}%
-    prix (avec reduction): {{ProductApi.price[0] * (1-(ProductApi.price[1]/100) ) }}
+    prix (avec reduction): {{  Math.round(ProductApi.price[0] * (1-(ProductApi.price[1]/100))*100)/100 }}
 
 
     </pre>
