@@ -108,7 +108,7 @@ const generatePostFB=() =>{
    ProductApi.value.price[1] ? (text  += "⚠️ -"+ ProductApi.value.price[1] +"% : " ) : ( text += " :D ")
 text += "👉🏻 "+ ProductApi.value.name +"\n"
 text += "Prix : "+ Math.round((ProductApi.value.price[1] ? (ProductApi.value.price[0] *( 1- (ProductApi.value.price[1] /100) )) : ProductApi.value.price[0])*100)/100
- text += "\n 👉🏻commandez le Dès maintient sur: https://falcon-com.web.app?produit="+ idProduct
+ text += "\n 👉🏻commandez le Dès maintient sur: https://falcon-com.web.app?produit="+ idProduct.value
  text += " \n 🛒Découvrez nos nombreux produits et collections ainsi que nos incroyables offres sur : https://falcon-com.web.app"
 
 FbArea.value =text
