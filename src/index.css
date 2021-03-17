@@ -40,10 +40,14 @@
     width: 40%;
   }
   
+  .imgSocial span {
+    margin: 2rem;
+
+  }
+  
   .imgSocial span img{
     width: 100%;
     height: auto;
-    margin: 2rem;
   }
   
   .imgSocial span i{
