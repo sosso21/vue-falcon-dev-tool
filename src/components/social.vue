@@ -128,8 +128,8 @@ fetch("https://falcon-admin.herokuapp.com/api/products/"+idProduct.value)
         
         });
  }
-    const copyInsta = () => {navigator.clipboard.writeText(InstArea);};
-    const copyFb = () => {navigator.clipboard.writeText(FbArea);};
+    const copyInsta = () => {navigator.clipboard.writeText(InstArea.value)};
+    const copyFb = () => {navigator.clipboard.writeText(FbArea.value)};
     return {
       idProduct,
 ProductApi,
